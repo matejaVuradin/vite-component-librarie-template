@@ -61,10 +61,7 @@ jobs:
         with:
           node-version: 18
       - run: yarn install
-      - run: yarn run docs
-      - uses: JustinBeckwith/linkinator-action@v1
-        with:
-          paths: docs/
+      - run: yarn run build:storybook
   test-matrix:
     runs-on: ${{ matrix.os }}
     strategy:
