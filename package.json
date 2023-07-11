@@ -33,7 +33,7 @@
     "lint:types": "tsc --noEmit --pretty",
     "lint:fix:style": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "lint:fix:code": "yarn run lint:style --fix",
-    "test:unit": "yarn run test:unit",
+    "test:unit": "yarn workspaces foreach -vpt run test:unit",
     "test:integrations": "yarn workspaces foreach -vpt run test:integrations"
   },
   "peerDependencies": {
@@ -50,6 +50,7 @@
     "@storybook/react": "^7.0.26",
     "@storybook/react-vite": "^7.0.26",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "12.1.5",
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.5.3",
