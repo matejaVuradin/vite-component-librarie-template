@@ -33,9 +33,8 @@
     "lint:types": "tsc --noEmit --pretty",
     "lint:fix:style": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "lint:fix:code": "yarn run lint:style --fix",
-    "test:unit": "vitest",
-    "coverage": "vitest run --coverage",
-    "test:integrations": "yarn workspaces foreach -vpt run test:integrations"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "peerDependencies": {
     "react": ">=18.x",
