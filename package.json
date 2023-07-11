@@ -79,5 +79,8 @@
     "vite": "4.3.9",
     "vite-plugin-dts": "^3.1.0",
     "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "release-please": "^15.11.2"
   }
 }
