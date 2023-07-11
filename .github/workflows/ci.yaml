@@ -51,8 +51,7 @@ jobs:
       - run: yarn --immutable
       - run: yarn run lint
       - run: yarn run build
-      - run: yarn run test:unit
-      - run: yarn run test:integrations
+      - run: yarn run test
   #docs
   docs:
     runs-on: ubuntu-latest
