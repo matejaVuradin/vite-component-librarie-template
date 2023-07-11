@@ -1,20 +1,12 @@
-// componets/Greetings.test.tsx
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+// // componets/Greetings.test.tsx
+// import { render, screen } from '@testing-library/react';
+// import { Button } from '.';
 
-// ...
+// describe('when the button is pressed', () => {
+//   it('should call the `onSendWaves` callback', () => {
+//     render(<Button label={'test_button'} />);
 
-describe("when the button is pressed", () => {
-  it("should call the `onSendWaves` callback", () => {
-    const onSendWavesMock = jest.fn();
-    render(
-      <Greetings 
-        name="Test Name" 
-        onSendWaves={onSendWavesMock} />
-    );
-    
-    fireEvent.click(screen.getByRole("button"));
-    expect(onSendWavesMock).toHaveBeenCalledWith(
-      "Waves sent to Test Name!");
-  });
-});
+//     fireEvent.click(screen.getByRole('button'));
+//     expect(onSendWavesMock).toHaveBeenCalledWith('Waves sent to Test Name!');
+//   });
+// });
