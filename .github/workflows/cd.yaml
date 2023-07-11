@@ -5,7 +5,7 @@ on:
       - master
   pull_request:
     branches:
-      -  matejaVuradin/semanticPR_CI_Release
+      - matejaVuradin/semanticPR_CI_Release
 jobs:
   maybe-release:
     name: release
@@ -38,7 +38,7 @@ jobs:
       - run: yarn install --immutable
         if: ${{ steps.release.outputs.releases_created }}
 
-      - run: yarn build:storybook
+      - run: yarn build
         if: ${{ steps.release.outputs.releases_created }}
 
       - env:
@@ -63,7 +63,7 @@ jobs:
         - name: Install
           run: yarn install --immutable
         - name: Build
-          run: yarn build
+          run: yarn build:storybook
         - name: Publish to Cloudflare Pages
           uses: cloudflare/pages-action@v1
           with:
