@@ -11,6 +11,11 @@ const fileName = "my-components-library" as const;
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), dts()],
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+    setupFiles: ['src/setupTest.ts']
+  },
   build: {
     sourcemap: true,
     lib: {
