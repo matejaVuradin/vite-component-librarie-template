@@ -47,7 +47,7 @@ jobs:
         run: |
           echo npmAuthToken: "$NODE_AUTH_TOKEN" >> ./.yarnrc.yml
           
-      - run: yarn workspaces foreach -v --exclude root --no-private npm publish --tolerate-republish --access public
+      - run: yarn npm publish --tolerate-republish --access public
         if: ${{ steps.release.outputs.releases_created }}
 
   page:
