@@ -16,7 +16,7 @@ jobs:
         id: release
         with:
           command: manifest
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{secrets.PERSONAL_TOKEN}}
           default-branch: master
           release-type: node
           monorepo-tags: true
@@ -71,5 +71,5 @@ jobs:
             accountId: 2238a825c5aca59233eab1f221f7aefb
             projectName: "projectName"
             directory: ./storybook-static
-            gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+            gitHubToken: ${{ secrets.PERSONAL_TOKEN }}
             branch: ${{ github.head_ref || github.ref_name }}
