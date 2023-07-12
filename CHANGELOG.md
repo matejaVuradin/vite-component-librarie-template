@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/matejaVuradin/vite-component-librarie-template/compare/vite-component-librarie-template_version2-v0.1.1...vite-component-librarie-template_version2-v0.1.2) (2023-07-12)
+
+
+### Bug Fixes
+
+* branch page ([323e7dd](https://github.com/matejaVuradin/vite-component-librarie-template/commit/323e7dd909ee2ed45cc2c8ea68e9762ccd2f4ce2))
+* publish without foreach ([7e9b5f7](https://github.com/matejaVuradin/vite-component-librarie-template/commit/7e9b5f753d9e1965e8e62c739bddbeed9f89781a))
+
 ## [0.1.1](https://github.com/matejaVuradin/vite-component-librarie-template/compare/vite-component-librarie-template_version2-v0.1.0...vite-component-librarie-template_version2-v0.1.1) (2023-07-12)
 
 
