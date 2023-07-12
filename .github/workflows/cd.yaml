@@ -69,7 +69,7 @@ jobs:
           with:
             apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
             accountId: 2238a825c5aca59233eab1f221f7aefb
-            projectName: "mateja_web"
+            projectName: "matejaweb"
             directory: ./storybook-static
             gitHubToken: ${{ secrets.PERSONAL_TOKEN }}
             branch: ${{ github.head_ref || github.ref_name }}
