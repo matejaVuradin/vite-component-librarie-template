@@ -13626,9 +13626,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-component-librarie-template@workspace:.":
+"vite-component-librarie-template_version2@workspace:.":
   version: 0.0.0-use.local
-  resolution: "vite-component-librarie-template@workspace:."
+  resolution: "vite-component-librarie-template_version2@workspace:."
   dependencies:
     "@chainsafe/eslint-config": ^2.0.0
     "@rushstack/eslint-patch": ^1.3.2
