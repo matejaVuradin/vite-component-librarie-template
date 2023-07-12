@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/matejaVuradin/vite-component-librarie-template/compare/vite-component-librarie-template_version2-v0.1.0...vite-component-librarie-template_version2-v0.1.1) (2023-07-12)
+
+
+### Bug Fixes
+
+* lock file ([d6d3af5](https://github.com/matejaVuradin/vite-component-librarie-template/commit/d6d3af5c167e3c14d2080c52906f720d06238af6))
+* projectname ([46fff68](https://github.com/matejaVuradin/vite-component-librarie-template/commit/46fff68a2407a03c26eae4d1835f28d23fdc2ce0))
+
 ## 0.1.0 (2023-07-12)
 
 
